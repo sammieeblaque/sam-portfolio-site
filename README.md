@@ -1,50 +1,82 @@
-# React + TypeScript + Vite
+# Samuel's Portfolio Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website, where I showcase my projects, skills, and experiences as a software engineer with expertise in frontend and backend technologies as well as a passion for creating impactful solutions.
 
-Currently, two official plugins are available:
+## About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I'm Samuel, a senior software engineer specializing in JavaScript and TypeScript with extensive experience in building scalable web applications using modern frameworks like React, Vue, and Next.js. My expertise spans frontend development, backend integration using Node.js (Express and Nest.js), and a growing interest in DevOps and Site Reliability Engineering (SRE). With a deep understanding of user-centric design, I have contributed to fintech, cross-border payment solutions, and dashboard applications.
 
-## Expanding the ESLint configuration
+### Key Skills
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Frontend Technologies:** React, Next.js, Vue, Nuxt.js
+- **Backend Frameworks:** Node.js (Express, NestJS), Golang
+- **DevOps Tools:** CI/CD pipelines, Docker, Kubernetes (in progress)
+- **Database Systems:** PostgreSQL, MongoDB, MySQL
+- **Testing:** React Testing Library, Cypress
 
-- Configure the top-level `parserOptions` property like this:
+## Installation & Setup
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Follow the instructions below to set up the project locally.
+
+### Prerequisites
+
+- Node.js (v16 or later recommended)
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/sammieeblaque/sam-portfolio-site.git
+   cd sam-portfolio-site
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the Development Server
+
+To start the development server with hot module replacement (HMR):
+
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Visit [http://localhost:3000](http://localhost:3000) to see the site in action.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Building for Production
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+To build the project for production:
+
+```bash
+npm run build
+# or
+yarn build
 ```
+
+### Linting
+
+To check and fix linting issues:
+
+```bash
+npm run lint
+# or
+yarn lint
+```
+
+## Contributing
+
+If you'd like to contribute or report any issues, please feel free to open a pull request or issue on GitHub.
+
+## Contact
+
+If you'd like to connect, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/sammiee).
+
+Thank you for visiting my portfolio site!
