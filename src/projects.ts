@@ -1,23 +1,57 @@
 export const projects = [
   {
-    title: "Enterprise Resource Planning System",
+    title: "Fintech Payments Platform (B2B)",
     description:
-      "Led the development of a comprehensive ERP system serving 500+ users. Implemented microservices architecture using Node.js and React, resulting in 40% improvement in system performance.",
-    tech: ["Node.js", "React", "PostgreSQL", "Docker", "AWS"],
-    role: "Tech Lead",
+      "Enterprise fintech platform that empowers businesses to make and collect payments faster, better manage their expenses and gain real-time visibility into their finances.",
+    tech: [
+      "Node.js",
+      "React",
+      "PostgreSQL",
+      "Docker",
+      "AWS",
+      "Redux",
+      "Tailwind",
+      "Styled-Components",
+    ],
+    role: "Senior Software Engineer",
+    link: "https://tryduplo.com/",
   },
   {
-    title: "Customer Analytics Platform",
+    title: "Online Mental Health & Therapy Platform",
     description:
-      "Architected and built a real-time analytics platform processing 1M+ daily events. Implemented event-driven architecture using Kafka and Elasticsearch.",
-    tech: ["Python", "Kafka", "Elasticsearch", "React", "MongoDB"],
-    role: "Senior Developer",
+      "Streamlining your mental health practice with simplified scheduling, tracking, assignments, outcome scoring and client documentation. By elevating client experience and productivity.",
+    tech: [
+      "Node.js",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "firebase",
+      "React Native",
+    ],
+    role: "Senior Software Engineer",
+    link: "https://bravely.io/",
   },
   {
-    title: "Payment Gateway Integration",
+    title: "Accessible High Quality Mental Health Platform",
     description:
-      "Developed a secure payment processing system handling $10M+ monthly transactions. Implemented PCI-compliant architecture and reduced payment processing time by 60%.",
-    tech: ["Java", "Spring Boot", "Redis", "React", "PostgreSQL"],
-    role: "Full Stack Developer",
+      "Mental health platform that offers same-day doctor consultation, therapy and medication from the comfort of your own home. Making anxiety and depression treatments simple and effective.",
+    tech: [
+      "React",
+      "Redux Observables",
+      "Node.js(Express.js)",
+      "MongoDB",
+      "Cal.com",
+      "Styled-Components",
+    ],
+    role: "Full Stack Software Engineer",
+    link: "https://www.wellnite.com/",
+  },
+  {
+    title: "Fintech B2B Platform",
+    description:
+      "Fintech platform that is an all-in-one business finance solution that offers a suite of tools and services designed to help businesses of all sizes.",
+    tech: ["Vue.js", "Inertia.js", "Bootstrap", "PHP", "Laravel", "MySQL"],
+    role: "Software Engineer",
+    link: "https://gladefinance.co/",
   },
 ];

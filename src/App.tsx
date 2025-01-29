@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Link, Linkedin, Mail } from "lucide-react";
 import { projects } from "./projects";
 import { skills } from "./skills";
 
@@ -86,6 +86,17 @@ const App = () => {
                     {tech}
                   </span>
                 ))}
+              </div>
+
+              <div className="mt-4">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
+                >
+                  <Link />
+                </a>
               </div>
             </div>
           ))}
