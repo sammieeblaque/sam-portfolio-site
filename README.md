@@ -9,10 +9,11 @@ I'm Samuel, a senior software engineer specializing in JavaScript and TypeScript
 ### Key Skills
 
 - **Frontend Technologies:** React, Next.js, Vue, Nuxt.js
-- **Backend Frameworks:** Node.js (Express, NestJS), Golang
-- **DevOps Tools:** CI/CD pipelines, Docker, Kubernetes (in progress)
-- **Database Systems:** PostgreSQL, MongoDB, MySQL
-- **Testing:** React Testing Library, Cypress
+- **Backend Frameworks:** Node.js (Express, NestJS), Python
+- **DevOps Tools:** CI/CD pipelines, Docker, Circle CI
+- **Database Systems:** PostgreSQL, MongoDB
+- **Testing:** React Testing Library, Cypress, Jest
+- **Version Control:** Git, GitHub
 
 ## Installation & Setup
 
