@@ -72,11 +72,11 @@ const App = () => {
               <p className="text-gray-600 dark:text-gray-300 mb-4 transition-colors duration-200">
                 {project.description}
               </p>
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 <span className="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-sm px-2 py-1 rounded transition-colors duration-200">
                   {project.role}
                 </span>
-              </div>
+              </div> */}
               <div className="flex flex-wrap gap-2">
                 {project.tech.map((tech, techIndex) => (
                   <span
